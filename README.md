@@ -26,27 +26,33 @@ You will need a [Github Personal Access Token](https://docs.github.com/en/authen
   "pinnedRepos": [
     {
       "name": "CrossWars-2",
-      "url": "https://github.com/StynVanDeHaterd/CrossWars-2"
+      "url": "https://github.com/StynVanDeHaterd/CrossWars-2",
+      "primaryLanguage": "C"
     },
     {
       "name": "B2Engine",
-      "url": "https://github.com/StynVanDeHaterd/B2Engine"
+      "url": "https://github.com/StynVanDeHaterd/B2Engine",
+      "primaryLanguage": "C"
     },
     {
       "name": "CrossWars",
-      "url": "https://github.com/StynVanDeHaterd/CrossWars"
+      "url": "https://github.com/StynVanDeHaterd/CrossWars",
+      "primaryLanguage": "C++"
     },
     {
       "name": "floatygons.js",
-      "url": "https://github.com/StynVanDeHaterd/floatygons.js"
+      "url": "https://github.com/StynVanDeHaterd/floatygons.js",
+      "primaryLanguage": "JavaScript"
     },
     {
       "name": "textygons.js",
-      "url": "https://github.com/StynVanDeHaterd/textygons.js"
+      "url": "https://github.com/StynVanDeHaterd/textygons.js",
+      "primaryLanguage": "TypeScript"
     },
     {
       "name": "texterfall.js",
-      "url": "https://github.com/StynVanDeHaterd/texterfall.js"
+      "url": "https://github.com/StynVanDeHaterd/texterfall.js",
+      "primaryLanguage": "TypeScript"
     }
   ]
 }

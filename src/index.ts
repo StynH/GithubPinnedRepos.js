@@ -7,6 +7,7 @@ type PinnedRepos = {
 type PinnedRepo = {
     name: string;
     url: string;
+    primaryLanguage: string;
 }
 
 export class GithubPinnedRepos{
@@ -31,8 +32,11 @@ export class GithubPinnedRepos{
             "          edges {\n" +
             "            node {\n" +
             "              ... on Repository {\n" +
-            "                name,\n" +
+            "                name\n" +
             "                url\n" +
+            "                primaryLanguage {\n" +
+            "                  name\n" +
+            "                }\n" +
             "              }\n" +
             "            }\n" +
             "          }\n" +
@@ -60,7 +64,8 @@ export class GithubPinnedRepos{
                 for(let i = 0; i < totalCount; ++i){
                     const repo: PinnedRepo = {
                         name: data[i]["node"]["name"],
-                        url: data[i]["node"]["url"]
+                        url: data[i]["node"]["url"],
+                        primaryLanguage: data[i]["node"]["primaryLanguage"]["name"]
                     }
                     repos.pinnedRepos.push(repo);
                 }
