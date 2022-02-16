@@ -1,6 +1,7 @@
 # GithubPinnedRepos.js
 [![npm version](https://badge.fury.io/js/githubpinnedrepos.svg)](https://badge.fury.io/js/githubpinnedrepos)
-![npm](https://img.shields.io/npm/dw/githubpinnedrepos)
+![npm](https://img.shields.io/npm/dt/githubpinnedrepos)
+![npm bundle size](https://img.shields.io/bundlephobia/min/githubpinnedrepos)
 
 A simple Javascript extension to fetch pinned repositories from a Github profile.
 
